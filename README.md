@@ -1,2 +1,3 @@
 # fem-plax
-FEA for plane stress/strain and axisymmetry
+
+FEA (Matlab/octave) for plane stress/strain and axisymmetry.
