@@ -1,0 +1,24 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Assuming we are in the 'root' of 'plax', where you see the directories
+% 'plax*' 'femaxi' and the template files 'runfemaxi.mm', 'runplaxL.mm'
+% and 'runplaxN.mm'.
+
+% Goto a place where you can run the models, e.g. directory './run'.
+% (Make it if it does not exist.)
+% Start Matlab (or Octave)
+
+cd './run'
+
+% Adapt path to find program and input files.
+
+path('../femaxi',path);
+path('../plaxL',path);
+path('../plaxN',path);
+
+% Make subdirectory 'mat' where you run the models.
+
+if ~exist('mat/'), mkdir('mat/'); end;
+
+% When you are finished you might want to remove './run'.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
